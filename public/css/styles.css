@@ -50,6 +50,7 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
+    display:none;
 }
 
 header ul li{
@@ -78,6 +79,8 @@ header .form .submit{
 
 div.burger-menu{
     text-align: center;
+    
+    
 }
 
 div.burger-menu i{
@@ -216,20 +219,16 @@ article div.main-article{
     
     p.icono {
         margin-bottom: 10px;
-      }
-  
-        @media only screen and (min-width:600px) {
-            .burguer-menu{
-                display: none;
-                max-height: 0;
-                overflow: hidden;
-}}}
-.nav-bar {display: flex; justify-content: space-around;
-   
+      
+    
+}
+@media (min-width: 361px){  header nav {
+  display: block}
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
 
 }
-.nav-bar2 {display: flex;justify-content: flex-start;
-  
-
 }
-  
