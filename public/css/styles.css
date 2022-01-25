@@ -222,9 +222,7 @@ footer {
 
         footer section{
             margin: 20px;
-             display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+            
         }
         
         footer section p{
