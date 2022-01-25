@@ -234,7 +234,7 @@ div.burger-menu{
         }
         
         footer section:hover .icon {
-            color: teal;
+            color: orange;
             transform: scale(1.2);
         }
       
